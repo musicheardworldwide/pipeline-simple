@@ -1,1 +1,20 @@
 # pipeline-simple
+
+pipeline-simple/applescript_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/conversation_turn_limit_filter.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/example_pipeline_scaffold.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/function_calling_blueprint.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/function_calling_filter_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/function_calling_scaff.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/function_calling_scaffold.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/groq_manifold_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/haystack_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/langfuse_filter_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/llamaindex_ollama_github_pipeline.py at main · musicheardworldwide/pipeline-simple
+pipeline-simple/llamaindex_ollama_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/llamaindex_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/manifold_pipeline_scaffold.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/ollama_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/ollama_manifold_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/python_code_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
+pipeline-simple/wikipedia_pipeline.py at main · musicheardworldwide/pipeline-simple (github.com)
