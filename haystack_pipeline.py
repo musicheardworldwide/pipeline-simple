@@ -19,7 +19,8 @@ class Pipeline:
         self.basic_rag_pipeline = None
 
     async def on_startup(self):
-        os.environ["OPENAI_API_KEY"] = "your_openai_api_key_here"
+        os.environ["OPENAI_API_KEY"] = "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
+"
 
         from haystack.components.embedders import SentenceTransformersDocumentEmbedder
         from haystack.components.embedders import SentenceTransformersTextEmbedder
@@ -66,7 +67,7 @@ class Pipeline:
 
         prompt_builder = PromptBuilder(template=template)
 
-        generator = OpenAIGenerator(model="gpt-3.5-turbo")
+        generator = OpenAIGenerator(model="llama3-8b-8192")
 
         self.basic_rag_pipeline = Pipeline()
         # Add components to your pipeline
