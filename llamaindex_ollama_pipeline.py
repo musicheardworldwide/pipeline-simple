@@ -24,14 +24,14 @@ class Pipeline:
 
         Settings.embed_model = OllamaEmbedding(
             model_name="nomic-embed-text",
-            base_url="http://localhost:11434",
+            base_url="https://api.cleardiamondmedia.com",
         )
         Settings.llm = Ollama(model="llama3")
 
         # This function is called when the server is started.
         global documents, index
 
-        self.documents = SimpleDirectoryReader("./data").load_data()
+        self.documents = SimpleDirectoryReader("/app/data").load_data()
         self.index = VectorStoreIndex.from_documents(self.documents)
         pass
 
