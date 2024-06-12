@@ -27,13 +27,13 @@ class Pipeline:
 
         Settings.embed_model = OllamaEmbedding(
             model_name="nomic-embed-text",
-            base_url="http://localhost:11434",
+            base_url="https://api.cleardiamondmedia.com",
         )
         Settings.llm = Ollama(model="llama3")
 
         global index, documents
 
-        github_token = os.environ.get("GITHUB_TOKEN")
+        github_token = os.environ.get("_pat_11BF5AHVY0XNfBQ9hbpZ0J_Z5wGsvylrGVcBUSx3kbSPDbbYnTuTccnUofFFrJjeBR3FXA4FRWmwH4KmVB")
         owner = "open-webui"
         repo = "plugin-server"
         branch = "main"
